@@ -30,7 +30,9 @@ config = {
     ],
     'use_scm_version': True,
     'install_requires': [
+        # 'boto3',    # Provided by Amazon
         'friend',
+        'requests',
     ],
     'packages': ['stackboss'],
     'name': 'stackboss',
